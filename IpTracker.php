@@ -12,7 +12,7 @@ class IpTracker{
 	function __construct($opr_ip = null)
 	
 	{
-		echo 'hello';
+		
 		if( null === $opr_ip ) 
 		$this->ip = $_SERVER['REMOTE_ADDR'];
 		else
